@@ -1,0 +1,199 @@
+Main()
+import java.util.Scanner;
+public class Main {
+    static int amor=0;
+    static int odio=0;
+    static String desicion="";
+    
+    static void esperar1(){
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {}
+    }
+    
+    public static void main(String[] args){
+        Scanner s = new Scanner(System.in);
+        Lider lo=new Lider("Long",10,10);
+        Lider ly=new Lider("Lyana",10,10);
+        Historia h=new Historia();
+        System.out.println("Amor y Odio");
+        System.out.println("Desarrollado por Sofía Iguarán Borja y Brandon Ramirez Bedoya\n");
+        esperar1();
+        System.out.println(h.getPresentacion1());
+        esperar1();
+        System.out.println("\nPresiona [ENTER] para continuar...");
+        s.nextLine();
+        System.out.println(h.getPresentacion2());
+        System.out.println("\nPresiona [ENTER] para continuar...");
+        s.nextLine();
+        System.out.println(h.getDialogo1());
+        System.out.println("\nPresiona [ENTER] para continuar...");
+        s.nextLine();
+        System.out.println("*IMAGEN*");
+        System.out.println("\nPresiona [ENTER] para continuar...");
+        s.nextLine();
+        System.out.println(h.getDialogo2());
+        System.out.println("\nPresiona [ENTER] para continuar...");
+        s.nextLine();
+        System.out.println(h.getDialogo3());
+        System.out.println("\n"+h.getToma1());
+        while (true){
+            desicion=s.nextLine();
+            if (desicion.equals("A")){
+                amor++;
+                break;
+            }else if (desicion.equals("O")){
+                odio++;
+                break;
+            }
+            else{
+                System.out.println("Ingresa una opción entre A y O y presiona [ENTER]");
+            }
+        }
+    }
+}
+
+Historia()
+public class Historia {
+    
+    public String getPresentacion1(){
+        return "Hace algún tiempo en el año 2100, el mundo se encontraba en medio\nde un cataclismo y una guerra que estaba a punto de explotar por los pocos recursos que quedaban en el planeta,\nlas civilizaciones cayeron, los humanos murieron y todo lo conocido por el hombre llego a su fin, o al menos eso era lo que se pensaba.\nEn medio de la crisis, dos lideres tendrían que llevar a sus pueblos a la supervivencia;\nLong, heredero del poder de la tribu Alpha, un guerrero y quizás el futuro gobernante de todo lo conocido,\ny Lyana, la heredera del poder de la tribu Beta, una cabecilla sosegada por el poder.";
+    }
+    
+    public String getPresentacion2(){
+        return "Con la inminente muerte y desaparición de su pueblo cada día más cerca,\nLong tomará desiciones que determinarán el futuro de los supervivientes de ambas tribus;\nsi por un lado decide unirse con la líder Lyana para prevalecer a la especie o si por el contrario,\ndecide continuar con la guerra por poder y los escasos recursos que aun quedan en el planeta";
+    }
+    
+    public String getDialogo1(){
+        return "Long: ¡Soy Long, el nuevo líder de la Tribu Alpha!\nLong: ¡Prometo a todos liderar nuestra batalla y obtener nuestros apreciados recursos!\nTribu Alpha: ¡No será necesario, supremo líder, no queremos una guerra todavía!\nTribu Alpha: Usted junto con Lyana pueden resolver las cosas en paz.\nLong: ¡Mi querido puedo, si eso es lo que quieren, así lo haré!\nLong ahora era el nuevo líder supremo de la Tribu Alpha y tendría que empezar a pensar\ncomo podría dirigir la guerra en la que han estado contra Beta durante tantos años.";
+    }
+    
+    public String getDialogo2(){
+        return "Por otro lado, una nueva lider tomaba el poder en la otra tribu:\nLyana: ¡Soy su nueva lider, querida Tribu Beta!\nTribu Beta: ¡Queremos la guerra contra Alpha!\nLyana: Ugh, claro que sí, pero primero debemos centrarnos en...\nTribu Beta: ¡Mi señora, no podemos centrarnos en nada más que en la guerra y recursos, no podemos perder tiempo!\nLyana: ¿Y... que quieren que haga?\nTribu Beta: ¡MUERTE A ALPHA Y A LONG!";
+    }
+    
+    public String getDialogo3(){
+        return "Luego de un tiempo, las tribus se enviaron varios mensajes con el fin de programar un encuentro entre los líderes Long y Lyana.\nLong: Lyana, mi tribu busca la paz con tu tribu, no buscamos la guerra, queremos coexistir.\nLyana: Long, no importa lo que digas tu ni tu tribu, ¡queremos la guerra por los recursos!\nLong: Lyana, hay otro camino...\nLyana: Olvidado, Long, esto ya está decidido...\nLyana abandonó la sala de encuentro, eso dejó pensando a Long...";
+    }
+    
+    public String getToma1(){
+        return "¿Que decisión debería tomar Long? Ingresa tu respuesta y presiona [ENTER].\n[A] Amor: Long no se rinde aún y busca hacer todo lo necesario para que ambas tribus permanezcan.\n[O] Odio: Long se molesta y piensa que Lyana es una líder irracional y dice: '¿Guerra es lo que quieres? ¡Guerra es lo que tendrás!'";
+    }
+    
+    
+}
+
+Personaje()
+public class Personaje {
+    private String nombre;
+    private int vida;
+    private int ataque;
+    
+    public void setNombre(String nombre){
+        this.nombre=nombre;
+    }
+    
+    public void setVida(int vida){
+        this.vida=vida;
+    }
+    
+    public void setAtaque(int ataque){
+        this.ataque=ataque;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getVida() {
+        return vida;
+    }
+
+    public int getAtaque() {
+        return ataque;
+    }
+    
+    
+    
+    public void mostrarInformacion(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Puntos de Salud: " + vida);
+        System.out.println("Puntos de Ataque: " + ataque);
+    }
+    
+    
+}
+
+Lider()
+package Precuelas;
+public class Lider extends Personaje{
+    
+    public Lider(String nombre, int vida, int ataque){
+        Lider.this.setNombre(nombre);
+        Lider.this.setVida(vida);
+        Lider.this.setAtaque(ataque);
+    }
+}
+
+Ciudadano()
+public class Ciudadano extends Personaje{
+    
+    public Ciudadano(String nombre, int vida, int ataque){
+        Ciudadano.this.setNombre(nombre);
+        Ciudadano.this.setVida(vida);
+        Ciudadano.this.setAtaque(ataque);
+    }
+}
+
+Militante()
+public class Militante extends Personaje{
+    
+    public Militante(String nombre, int vida, int ataque){
+        Militante.this.setNombre(nombre);
+        Militante.this.setVida(vida);
+        Militante.this.setAtaque(ataque);
+    }
+}
+
+Tribu()
+public class Tribu {
+    int vidatribu;
+    int poblacion;
+
+    public int getVidatribu() {
+        return vidatribu;
+    }
+
+    public int getPoblacion() {
+        return poblacion;
+    }
+
+    public void setVidatribu(int vidatribu) {
+        this.vidatribu = vidatribu;
+    }
+
+    public void setPoblacion(int poblacion) {
+        this.poblacion = poblacion;
+    }
+    
+    
+}
+
+Beta()
+public class Beta extends Tribu{
+
+    public Beta(int vidaTribu, int poblacion) {
+        Beta.this.setVidatribu(vidaTribu);
+        Beta.this.setPoblacion(poblacion);
+    }
+    
+}
+
+Alpha()
+public class Alpha extends Tribu{
+    
+    public Alpha(int vidatribu, int poblacion){
+        Alpha.this.setVidatribu(vidatribu);
+        Alpha.this.setPoblacion(poblacion);
+    }
+}
