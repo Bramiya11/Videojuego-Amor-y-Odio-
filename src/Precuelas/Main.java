@@ -50,5 +50,6 @@ public class Main {
                 System.out.println("Ingresa una opción entre A y O y presiona [ENTER]");
             }
         }
+        
     }
 }
