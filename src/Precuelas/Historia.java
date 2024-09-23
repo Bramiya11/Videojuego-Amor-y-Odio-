@@ -22,8 +22,15 @@ public class Historia {
     }
     
     public String getToma1(){
-        return "¿Que decisión debería tomar Long? Ingresa tu respuesta y presiona [ENTER].\n[A] Amor: Long no se rinde aún y busca hacer todo lo necesario para que ambas tribus permanezcan.\n[O] Odio: Long se molesta y piensa que Lyana es una líder irracional y dice: '¿Guerra es lo que quieres? ¡Guerra es lo que tendrás!'";
+        return "¿Que decisión debería tomar Long?\n[A] Amor: Long no se rinde aún y busca hacer todo lo necesario para que ambas tribus permanezcan.\n[O] Odio: Long se molesta y piensa que Lyana es una líder irracional y dice: '¿Guerra es lo que quieres? ¡Guerra es lo que tendrás!'\nIngresa la respuesta y presiona [ENTER].";
     }
     
+    public String get1A(){
+        return "";
+    }
+    
+    public String get1O(){
+        return "";
+    }
     
 }
