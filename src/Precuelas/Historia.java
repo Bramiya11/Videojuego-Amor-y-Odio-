@@ -52,7 +52,18 @@ public class Historia {
                 + "Ingresa la respuesta y presiona [ENTER].";
     }
     
-    public String get1A(){
+    public String A1(){
+        return "Eligiendo un camino de amor, Long trataría de buscar la manera de que ambas tribus hiciesen las paces.\n"
+                + "Long volvió con los Alpha y habló con ellos sobre su desición.\n"
+                + "Long: ¡Querido pueblo Alpha! La lider de los Beta y yo no tuvimos una charla tan buena que digamos.\n"
+                + "Tribu Alpha: ¿Que pasó, supremo líder? ¿No pudieron resolver el problema?\n"
+                + "Long: Lyana y los Beta no están dispuestos a negociar los recursos del planeta, ellos los quieren\n"
+                + "para su propio beneficio personal y nada más. ¡Quieren guerra!\n"
+                + "Tribu Alpha: Pero... ¿cúal fue su desición?\n"
+                + "Long: Así como ustedes lo pidieron, no vamos a irnos a guerra contra ellos... eso espero...\n";
+    }
+    
+    public String O1(){
         return "";
     }
 }

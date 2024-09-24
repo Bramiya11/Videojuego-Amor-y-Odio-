@@ -50,6 +50,11 @@ public class Main {
                 System.out.println("Ingresa una opción entre A y O y presiona [ENTER]");
             }
         }
-        
+        switch (desicion){
+            case "A":
+                System.out.println("\n"+h.A100());
+            case "O":
+                System.out.println("\n"+h.O100());
+        }
     }
 }
