@@ -60,7 +60,7 @@ public class Historia {
                 + "Long: Lyana y los Beta no están dispuestos a negociar los recursos del planeta, ellos los quieren\n"
                 + "para su propio beneficio personal y nada más. ¡Quieren guerra!\n"
                 + "Tribu Alpha: Pero... ¿cúal fue su desición?\n"
-                + "Long: Así como ustedes lo pidieron, no vamos a irnos a guerra contra ellos... eso espero...\n";
+                + "Long: Así como ustedes lo pidieron, no vamos a irnos a guerra contra ellos... eso espero...";
     }
     
     public String O1(){

@@ -52,9 +52,9 @@ public class Main {
         }
         switch (desicion){
             case "A":
-                System.out.println("\n"+h.A100());
+                System.out.println("\n"+h.A1());
             case "O":
-                System.out.println("\n"+h.O100());
+                System.out.println("\n"+h.O1());
         }
     }
 }
