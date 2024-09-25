@@ -60,10 +60,30 @@ public class Historia {
                 + "Long: Lyana y los Beta no están dispuestos a negociar los recursos del planeta, ellos los quieren\n"
                 + "para su propio beneficio personal y nada más. ¡Quieren guerra!\n"
                 + "Tribu Alpha: Pero... ¿cúal fue su desición?\n"
-                + "Long: Así como ustedes lo pidieron, no vamos a irnos a guerra contra ellos... eso espero...";
+                + "Long: Así como ustedes lo pidieron, no vamos a irnos a guerra contra ellos... eso espero...\n"
+                + "Tribu Alpha: ¡Gracias, supremo líder!\n"
+                + "Long: Escuchen bien esto, si nosotros nos mantenemos pacificos, ellos no tienen nada que\n"
+                + "temer de nosotros, vamos a tratar de mantener la paz y de ser una buena tribu.\n"
+                + "Tribu Alpha: ¡A la orden, mi líder!";
     }
     
-    public String O1(){
-        return "";
+    public String A2(){
+        return "Ya habían pasado varias semanas desde la última reunión entre Long y Lyana, y extrañamente ninguna de las\n"
+                + "dos tribus llegaría a atacarse... hasta ese momento...\n"
+                + "La paz se esfumó en la Tribu Alpha cuando un grupo de militantes bien armados de la Tribu Beta habrían"
+                + "llegado a invadir su territorio con el objetivo de hacer el mayor daño posible. La Tribu Alpha, que no"
+                + "había estado lo suficientemente bien preparada para afrontar algo así, tuvieron que pagar las consecuencias.\n"
+                + "Militantes y civiles Alphas fueron asesinados por los militantes Beta. La Tribu Alpha se había debilitado.\n"
+                + "Long: ¡ESTO ES INACEPTABLE!\n"
+                + "Varios militantes de la Tribu Alpha lograron repeler el ataque de los Beta, pero ya era demasiado tarde, el\n"
+                + "daño ya estaba hecho. Los Alpha fueron parcialmente derrotados. Los Beta restantes volvieron a su tribu.\n"
+                + "Long: Creo que es hora de tomar una desición...";
+    }
+    
+    public String getToma2A(){
+        return "¿Qué debería de hacer Long ante este ataque Beta?\n"
+                + "[A] Amor: Long irá en solitario a la Tribu Beta a hablar con Lyana.\n"
+                + "[O] Odio: Long no se quedará de brazos cruzados e irá con su tribu a pelear contra la Tribu Beta y Lyana.\n"
+                + "Ingresa la respuesta y presiona [ENTER].";
     }
 }
