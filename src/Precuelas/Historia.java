@@ -86,4 +86,63 @@ public class Historia {
                 + "[O] Odio: Long no se quedará de brazos cruzados e irá con su tribu a pelear contra la Tribu Beta y Lyana.\n"
                 + "Ingresa la respuesta y presiona [ENTER].";
     }
+    
+    public String AA1(){
+        return "En su camino por un mundo mejor (literalmente), Long terminaría siendo secuestrado por algunos militantes\n"
+                + "Beta que vigilaban por ahí...\n"
+                + "Tribu Beta: Vas a venir con nosotros, Lyana estará feliz de verte.\n"
+                + "Long: Igualmente. No puedo esperar a tener una amistosa conversación con ella.\n"
+                + "Tribu Beta: Si... amistosa. ¡Vamonos, tenemos al líder Alpha!\n"
+                + "Long trataba de mantenerse lo más positivo y acertante posible, a fin de cuentas su objetivo\n"
+                + "primordial era el de buscar a Lyana y hablar con ella para calmar la situación con la guerra.";
+    }
+    
+    public String AA2(){
+        return "Ya en base Beta y en su cuartel general, Lyana interrogaba a Long el cual yacía atado a una silla, esto antes\n"
+                + "de decirle cual sería el destino que ella le tenía preparado a él, y por lo tanto, a su tribu.\n"
+                + "Lyana: ¿Todavía sigues pensando que podemos solucionar las cosas con diálogos?\n"
+                + "Long: No veo por qué no, Lyana. Mi gente no quiere guerra, ellos quieren paz.\n"
+                + "Lyana: Tu tribu es tonta, para que haya paz debe haber guerra. Si tú no la quieres, yo te la voy a dar.\n"
+                + "Long: ¿Te parece correcto enviar a militantes tuyos a acabar descaradamente con varios de mi tribu?\n"
+                + "Lyana: Por favor, Long, ¡mira nuestro mundo, mira los recursos! ¡SOLO UNA TRIBU PUEDE PREVALECER!\n"
+                + "Long: Te equivocas...\n"
+                + "Lyana: ¿Cómo me voy a equivocar, Long? Estás ciego, si convivimos los Beta y Alpha los recursos no nos\n"
+                + "durarán más de 10 años, nosotros queremos vivir todo el tiempo que sea posible.\n"
+                + "Long: ¿No hay recursos?\n"
+                + "Lyana: Los hay, pero no los suficientes, eso es lo que pasa, Long.\n"
+                + "Long: Así que somos muy grandes para un mundo tan pequeño.\n"
+                + "Lyana: ¡Bonita analogía, entendiste mi mensaje.";
+    }
+    
+    public String AA3(){
+        return "Ya habían pasado varias horas y los Beta todavía esperaban ansiosos por saber cual sería la desición de Lyana\n"
+                + "sobre el líder Long. Lyana ya lo tenía claro, y no tuvo miedo en decirselo de frente a Long.\n"
+                + "Lyana: Me pareciste interesante, tenías buena intención, lo sé. Pero no cabemos juntos en este mundo.\n"
+                + "Long: ¿Y que me quieres decir con eso?\n"
+                + "Lyana: ¡PREPAREN A LOS PERROS!\n"
+                + "Los Beta tenían bajo su control a un grupo de perros agresivos y muy hambrientos que podrían devorar\n"
+                + "casi cualquier cosa. Long sería arrojado a ellos en cuestión de poco tiempo.\n"
+                + "Lyana: Long, demostraste ser un caballero, pero lo siento. Quiero llevar a los Beta a lo más alto.\n"
+                + "Long: Lyana, no hagas esto, ¡todavía puedes...!\n"
+                + "Lyana: Nada, Long. Ve diciendo tus ultimas palabras, voy a maquillarme para presenciar tu muerte.\n"
+                + "Long: Lyana...\n"
+                + "Lyana: Te veré en el infierno.";
+    }
+    
+    public String AA4(){
+        return "¡Long estaba en un completo aputo, iba a morirse! Long debía de hacer algo al respecto.\n"
+                + "Inteligentemente, Long nunca salía de su tribu sin una navaja escondida entre su ropa. Esta sería de vital\n"
+                + "importancia para su liberación, aunque debía de ser muy cuidadoso y silencioso, ya que Lyana\n"
+                + "podía detectarlo en cualquier momento. Luego de liberarse, Long exploró un poco el cuartel general Beta, ya\n"
+                + "que era demasiado grande. En su trayecto, Long pudo encontrarse con Lyana de espalda, concentrada\n"
+                + "en su imagen personal para el espectaculo que sería su inminente muerte. Era una oportunidad para\n"
+                + "hacer algo al respecto, ya que si escapaba podría pasar que alertase a Lyana o sus militantes.";
+    }
+    
+    public String getToma3AA(){
+        return "¡Es ahora o nunca! ¿Qué debería hacer Long?\n"
+                + "[A] Amor: Long volverá a su silla para seguir convenciendo a Lyana.\n"
+                + "[O] Odio: Long matará a Lyana.\n"
+                + "Ingresa la respuesta y presiona [ENTER].";
+    }
 }
