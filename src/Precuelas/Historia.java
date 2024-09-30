@@ -51,6 +51,9 @@ public class Historia {
                 + "[O] Odio: Long se molesta y piensa que Lyana es una líder irracional y dice: '¿Guerra es lo que quieres? ¡Guerra es lo que tendrás!'\n"
                 + "Ingresa la respuesta y presiona [ENTER].";
     }
+    /*
+    RUTA A
+    */
     
     public String A1(){
         return "Eligiendo un camino de amor, Long trataría de buscar la manera de que ambas tribus hiciesen las paces.\n"
@@ -86,6 +89,10 @@ public class Historia {
                 + "[O] Odio: Long no se quedará de brazos cruzados e irá con su tribu a pelear contra la Tribu Beta y Lyana.\n"
                 + "Ingresa la respuesta y presiona [ENTER].";
     }
+    
+    /*
+    RUTA AA
+    */
     
     public String AA1(){
         return "En su camino por un mundo mejor (literalmente), Long terminaría siendo secuestrado por algunos militantes\n"
@@ -144,5 +151,180 @@ public class Historia {
                 + "[A] Amor: Long volverá a su silla para seguir convenciendo a Lyana.\n"
                 + "[O] Odio: Long matará a Lyana.\n"
                 + "Ingresa la respuesta y presiona [ENTER].";
+    }
+    
+    /*
+    RUTA AAA
+    */
+    
+    public String AAA1(){
+        return "Long fue llevado por la Tribu Beta, entre risas y humillaciones, hacía una gigantezca celda\n"
+                + "llena de perros hambrientos. Al ser arrojado ahí, rápidamente los feroces perros morderían\n"
+                + "sin piedad al líder Alpha. Con el paso del tiempo y de los fuertes mordiscos, Long empezaría\n"
+                + "a desangrarse y a perder la conciencia. El líder Alpha ya no resistía más los ataques de los\n"
+                + "perros y con su último aliento dijo:\n"
+                + "Long: ¡QUISE HACERLO POR LAS BUENAS, LYANA!\n"
+                + "Finalmente el líder Alpha cayó. Descansa en paz, Long.";
+    }
+    
+    public String AAA2(){
+        return "Sin un líder que vele por ellos y los dirija, los Alpha fueron atacados en su totalidad por\n"
+                + "la Tribu Beta comandada por Lyana. La líder Beta no tuvo ningun tipo de piedad con los Alpha,\n"
+                + "a pesar de que muchos suplicaron por sus vidas y las de sus familias. Todo rastro Alpha fue\n"
+                + "violentamente eliminado del planeta. Ahora, solo Lyana y la Tribu Beta dominaban el mundo.\n"
+                + "Los Beta han ganado.";
+    }
+    
+    /*
+    RUTA AAO
+    */
+    
+    public String AAO1(){
+        return "Sin pensarlo dos veces, Long tomó a Lyana por la espalda y la estranguló. Lyana no podía defenderse\n"
+                + "ni hacer algo al respecto. La fuerza de Long era mucho mayor a la fuerza de Lyana, por lo que\n"
+                + "no pudo quitarse a Long de encima. La líder de los Beta había caído, ya estaba muerta.\n"
+                + "Long: ¿Por qué, Lyana? ¿Por qué me obligaste a hacerte esto? Lo siento mucho...\n"
+                + "Con lagrimas en sus ojos, Long ya sabía que destino le iba a esperar cuando escuchó algunos pasos\n"
+                + "por fuera de la habitación donde se encontraba.\n"
+                + "Long: Descansa en paz, Lyana."
+                + "Long fue descubierto en la escena del crimen, fue una noticia desgarradora para la tribu Beta.\n"
+                + "Long fue arrojado igualmente a los perros hambrientos, donde eventualmente moriría a causa de\n"
+                + "las mordeduras y la perdida de sangre. Finalmente el líder Alpha cayó. Descansa en paz, Long.";
+    }
+    
+    public String AAO2(){
+        return "Sin líderes en ninguno de los dos bandos, ambas tribus empiezan a morir por la falta de recursos\n"
+                + "las familias se debilitan, los militantes se debilitan. Todos empiezan a perder la cordura, algunos\n"
+                + "deciden tomar el camino del suicidio, otros tratan de resistir pero al final no lo logran.\n"
+                + "Primero fueron los Beta, y al final los Alpha dieron el último respiro antes de partir de este mundo.\n"
+                + "El mundo se gobierna a si mismo. Descansen en paz, Tribus Alpha y Beta.";
+    }
+    
+    /*
+    RUTA AO
+    */
+    
+    public String AO1(){
+        return "Long: ¡ESTO ES INACEPTABLE! ¡Esto es lo que pasa por querer ser dizque amoroso! No vamos a permitir\n"
+                + "que esos malditos vuelvan a meterse con nuestra tribu, nunca más.\n"
+                + "Tribu Alpha: Pero... supremo líder, ¿que podemos hacer al respecto?\n"
+                + "Long: Sé que muchos están en desacuerdo, pero simplemente NO HAY DE OTRA. Tenemos que tomar las\n"
+                + "armas e ir hacía los Betas, a demostrar que VAMOS a defendernos donde sea y como sea, y que no se\n"
+                + "saldrán con la suya. ¡NUNCA MÁS!\n"
+                + "Tribu Alpha: Entonces... ¿quiere que vayamos y...?\n"
+                + "Long: QUE LOS ACABEMOS, QUE LOS MATEMOS, ¡ESO ES LO QUE MERECEN! ¡MIREN A SUS HERMANOS, A SUS\n"
+                + "FAMILIAS, NO PODEMOS DEJAR QUE ELLOS ARRUINEN TODO LO QUE HEMOS CONSTRUIDO, HAY QUE ACABAR CON\n"
+                + "LOS BETA! ¡Y ES UNA ORDEN!\n"
+                + "Tal y como dijo el supremo líder Alpha, no había de otra, todos los Alpha tendrían que prepararse para\n"
+                + "una guerra. Era hora de que los Alpha respondiesen.";
+    }
+    
+    public String AO2(){
+        return "Con su Tribu preparada y luego de un buen recorrido, Long y los Alpha llegan a territorio Beta,\n"
+                + "por donde sigilosamente acribillarían a varios de los militantes Beta que vigilaban los limites del\n"
+                + "territorio, esto les permitió poder acercarse más facilmente a los puntos más debiles e importantes para\n"
+                + "los Beta. Siendo detectados, Long y los Alpha pasaron del modo sigilo al modo guerra, usando sus armas de\n"
+                + "más alto calibre contra todo Beta que se moviese. Los Alpha iban ganando poco a poco.";
+    }
+    
+    public String AO3(){
+        return "Con el paso de los minutos, los militantes Beta empezaban a ser menos, ya dejaban poco a poco de ser\n"
+                + "una amenaza para los Alpha, sin embargo, Long pudo notar como, luego de acribillar en su\n"
+                + "totalidad a los militantes Beta, los militantes Alpha usaban sus armas contra los ciudadanos\n"
+                + "y civiles Beta, ¡eso mismo había hecho la Tribu Beta y Lyana con los Alphas! Ahora,\n"
+                + "¿era lo correcto?\n"
+                + "Long: No... esos civiles... esas familias... son como nosotros...\n"
+                + "Long sabía en el fondo que eso no era lo correcto. La muerte jamás sería la opción correcta.\n"
+                + "Long: Pero... los Beta mataron a los nuestros solo porque sí, solo por órdenes de esa perra de Lyana...\n";
+    }
+    
+    public String getToma3AO(){
+        return "¿Salvar a los civiles Beta o dejar que mueran? ¿Qué debería hacer Long?\n"
+                + "[A] Amor: Long detendrá el ataque.\n"
+                + "[O] Odio: Long no dentendrá el ataque.\n"
+                + "Ingresa la respuesta y presiona [ENTER].";
+    }
+    
+    /*
+    RUTA AOA
+    */
+    
+    public String AOA1(){
+        return "Long: ¡ALTO, NO SIGAN DISPARANDO!\n"
+                + "Tribu Alpha: Pero supremo líder, ellos son...\n"
+                + "Long: Si, son Betas, pero no dejan de ser personas. Voy por Lyana.\n"
+                + "Long fue en solitario al escondite de Lyana, con el objetivo de tener una conversación con ella.";
+    }
+    
+    public String AOA2(){
+        return "Long llegó al escondite de Lyana, la cual ya lo estaba esperando para ser asesinada.\n"
+                + "Lyana: Entonces... ¿viniste a acabar conmigo?\n"
+                + "Long: No exactamente, Lyana. Cuando mis militantes asesinaban a tus civiles pude ver en ellos\n"
+                + "a mis propios civiles Alpha... no sé que me pasó, pude ver a mi propia gente. Pude ver eso mismo\n"
+                + "que enviaste a hacer en tu nombre.\n"
+                + "Lyana: Si, Long, lo hice yo.\n"
+                + "Long: ¿Por qué, Lyana?\n"
+                + "Lyana: Yo misma que dije que iba a haber guerra, Long. No me interesa que formemos alianzas.\n"
+                + "Long: Disfruta a tu gente, ya no son peligrosos, acabamos con todos sus militantes. Yo y los Alpha\n"
+                + "nos largamos.\n"
+                + "Antes de que pudiese abandonar el escondite, Lyana tomaría un cuchillo que tenía escondido entre su ropa\n"
+                + "y apuñalaría a Long por la espalda, sin piedad y sin importarle su perdón."
+                + "Long: ¿Qué...? ¿Qué haces...?\n"
+                + "Lyana: Lo sé, sé que por eso me van a matar... pero si mi tribu se muere, yo también lo haré...\n"
+                + "y me iré contigo, Long.\n"
+                + "Long ya no podía pronunciar palabra alguna. Long había sido asesinado por Lyana.\n"
+                + "Finalmente el líder Alpha cayó. Descansa en paz, Long.";
+    }
+    
+    public String AOA3(){
+        return "Al ver que su líder no regresaba, los Alpha fueron al escondite, para encontrar a su líder muerto y a la\n"
+                + "culpable en la escena. Por intención de su líder, los Alpha no le harían daño a los civiles Beta que\n"
+                + "quedaron vivos luego del enfretamiento, pero era obvio que Lyana sería salvagemente fusilada frente\n"
+                + "a los últimos Beta y sus restos serían arrojados a los perros hambrientos. Los Alpha abandonaron el\n"
+                + "territorio Beta. ¿Algúno ganó esta guerra?";
+    }
+    
+    public String AOA4(){
+        return "Sin líderes en ninguno de los dos bandos, ambas tribus empiezan a morir por la falta de recursos.\n"
+                + "Todos empiezan a perder la cordura, los militantes Alpha se debilitan mucho. Algunos civiles\n"
+                + "deciden tomar el camino del suicidio, otros tratan de resistir pero al final no lo logran.\n"
+                + "Primero fueron los últimos Beta, y al final los Alpha dieron el último respiro antes de partir de este mundo.\n"
+                + "El mundo se gobierna a si mismo. Descansen en paz, Tribus Alpha y Beta. Nadie ganó la guerra.";
+    }
+    
+    /*
+    RUTA AOO
+    */
+    
+    public String AOO1(){
+        return "Long deja que sus militantes acaben violentamente con los civiles Beta. Long definitivamente quería ver todo\n"
+                + "el imperio Beta arder lentamente.\n"
+                + "Long: Esto es lo que merecen... ¡voy por Lyana!\n"
+                + "Ahora solo serían Long y Lyana. Long se apresuró y llegó al escondite donde se suponía que Lyana estaría.";
+    }
+    
+    public String AOO2(){
+        return "Lyana: Llegaste... ¿vas a matarme, no?\n"
+                + "Long: La verdad es que si, Lyana.\n"
+                + "Lyana: ¿Y no eras tan bueno?\n"
+                + "Long: Lo era. Pero la cagaste.\n"
+                + "Lyana: Veo que no tendrás piedad.\n"
+                + "Long: Para nada. Que no descanses en paz nunca, Lyana.\n"
+                + "Long finalmente disparó con su rifle a la cabeza de Lyana, un tiro de gracia para acabar con la líder Beta.\n"
+                + "Long: Nos vemos en el infierno, perra.\n"
+                + "Long volvió con sus militantes Alpha, los cuales lo recibieron celebrando felices. Los Alpha ganaron la guerra.";
+    }
+    
+    public String AOO3(){
+        return "Luego de mucho tiempo, los Alpha, comandados por Long, lograron dominar el mundo y apropiarse completamente de\n"
+                + "los recursos, sin embargo no todo era color de rosa, principalmente para el líder Alpha, quien vivía\n"
+                + "descontento por las desiciones tomadas. Todos los días en su cama se preguntaba mirando al techo:\n"
+                + "Long: ¿De verdad... las cosas debían de terminar así...?\n"
+                + "Long siempre se torturaba a sí mismo por no haber salvado almenos a los civiles Beta. Long nunca\n"
+                + "podría quitarse esa molestia de la cabeza.\n"
+                + "Long: Esta no era la forma en que me hubiese gustado ganar...\n"
+                + "¿Las desiciones de Long fueron 100% correctas? Por él mismo jamás lo serían.\n"
+                + "Los Alpha han ganado. Long, por su parte solo sería un desventurado e infeliz líder Alpha por el\n"
+                + "resto de sus días.";
     }
 }
