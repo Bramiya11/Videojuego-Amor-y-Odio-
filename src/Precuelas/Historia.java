@@ -327,4 +327,53 @@ public class Historia {
                 + "Los Alpha han ganado. Long, por su parte solo sería un desventurado e infeliz líder Alpha por el\n"
                 + "resto de sus días.";
     }
+    
+    /*
+    RUTA O
+    */
+    
+    public String O1(){
+        return "Eligiendo un camino de odio, Long le declararía a Lyana y a los Betas y volvería con su tribu muy enojado.\n"
+                + "Tribu Alpha: Supremo líder, ¿se encuentra bien...?\n"
+                + "Long: ¡No, claro que no me encuentro bien...!\n"
+                + "Furioso, Long no tuvo de otra que contarle a su pueblo a situación actual con los Beta.\n"
+                + "Long: ¡Escuchen bien todos! La Lyana esa y su tribu no quieren nada de paz, ellos quieren guerra...\n"
+                + "¿pero saben que? Si quieren guerra, eso es lo que les daremos, ¡nadie se mete con los Alpha...!\n"
+                + "Tribu Alpha: Pero... supremo líder, no vale la pena iniciar una guerra contra los Beta por los recursos,\n"
+                + "podemos buscar la manera de hacer cambiar el parecer de su líder Lyana.\n"
+                + "Long: Pero ellos no quieren paz, ellos quieren luchar.\n"
+                + "Tribu Alpha: Señor, no vemos viable el querer ir a una guerra...";
+    }
+    
+    public String O2(){
+        return "Long ahora tenía un gran problema, su pueblo no quería unirse a la guerra a pesar de la negación de Lyana y\n"
+                + "los Betas por llegar a un acuerdo pacífico por los recursos del planeta. Los Alpha suplicaban a Long para\n"
+                + "no empeorar las cosas y mantenerse lo más pacífico posible, pero Long aún tenía otros planes.\n"
+                + "Long sabía que tenía que tomar una desición tarde o temprano, y sabiendo que los Beta podrían inciar un\n"
+                + "ataque en cualquier momento sería muy importante tomar la desición de la forma más cuidadosa posible.";
+    }
+    
+    public String getToma2O(){
+        return "Reunido con su pueblo, ¿qué debería proponerles Long?\n"
+                + "[A] Amor: Long hará caso a su tribu, pero no tan confiado.\n" 
+                + "[O] Odio: Long seguirá con su plan y convencerá a su tribu de pelear.\n" 
+                + "Ingresa la respuesta y presiona [ENTER].";
+    }
+    
+    /*
+    RUTA OA
+    */
+    
+    public String OA1(){
+        return "Aún con desconfianza por su desición, Long hizo caso a su tribu y debería de pensar en otra manera de generar\n"
+                + "la paz entre los dos bandos. Pensando un poco en ideas, Long supo que podría almenos hacer un esfuerzo por\n"
+                + "enviar un mensaje a Lyana con disculpas por su actitud de la última vez, disculpas por si alguna vez los\n"
+                + "Alpha se metieron con los Beta, y una propuesta bien formulada de como se podrían repartir bien los\n"
+                + "recursos entre ambas tribus.\n"
+                + "Luego de un día después de enviar su mensaje, Long recibiría una respuesta al estilo Lyana:\n"
+                + "Lyana: 'MUERTE A LOS ALPHA'\n"
+                + "Como Long lo sospechaba, definitivamente iba a ser demasiado dificil llegar a un acuerdo, pero lo que\n"
+                + "importaba era mantener a su pueblo feliz, ¿no?\n"
+                + "Long: Esta Lyana me va a sacar las canas...";
+    }
 }
