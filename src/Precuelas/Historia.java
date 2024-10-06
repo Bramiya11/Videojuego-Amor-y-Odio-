@@ -546,4 +546,153 @@ public class Historia {
                 + "Primero fueron los Betas, y al final los Alphas dieron el último respiro antes de partir de este mundo.\n"
                 + "El mundo se gobierna a si mismo. Descansen en paz, Tribus Alpha y Beta. Nadie ganó la guerra.";
     }
+    
+    /*
+    RUTA OO
+    */
+    
+    public String OO1(){
+        return "Long: ¡Escuchen bien! ¡¿Y si Lyana y sus Betas se salen con la suya?! ¡¿Y si vienen a atacarnos por la espalda?!\n"
+                + "Piensen bien, queridos Alphas, sé que ninguno de ustedes quiere pelear, sé que ninguno quiere guerra...\n"
+                + "¡Pero es necesario! La paz no se logra con besos y abrazos, ¡se logra con la muerte! Y yo quiero que ustedes\n"
+                + "vivan en un mundo en paz, y solo se puede lograr con la guerra. Los Betas SON un problema, ellos quieren guerra\n"
+                + "y es precisamente lo que les daremos.\n"
+                + "La tribu Alpha trataba de comprender a su líder, ¿de verdad era necesario ser tan sanguinario?\n"
+                + "Luego de unos días de trabajo y análisis, Long logró convencer a su pueblo de darle a Lyana y a los Betas lo que\n"
+                + "querían: guerra. Se avecinaban tiempos de sangre";
+    }
+    
+    public String OO2(){
+        return "La Tribu Alpha se encargó de enviar un mensaje a la Tribu Beta con el fin de concretar un punto de encuentro para\n"
+                + "luchar, solo habría un ganador y sería una batalla a muerte. Alpha vs. Beta, Long vs. Lyana. Luego de mucha\n"
+                + "espera, los Betas finalmente dieron una respuesta acertada, aunque esto no era nada de sorprender ára Long,\n"
+                + "el líder Alpha ya tenía sus intenciones claras: acabar con los Betas y Lyana.";
+    }
+    
+    public String OO3(){
+        return "Era el día de la pelea, y los líderes junto con sus respectivas tribus se habían encontrado cara a cara en el\n"
+                + "lugar pactado para luchar.\n"
+                + "Lyana: ¡¿Empezamos ya?!\n"
+                + "Long: ¡Acabemos con esto! ¡MUERTE A LOS BETAS!\n"
+                + "Lyana: ¡MUERTE A LOS ALPHAS!\n"
+                + "El combate inició. Los disparos, los gritos, los golpes, y la abundante sangre allanaron todo el lugar. Esta\n"
+                + "pelea sería perfectamente agregada a todos los libros de historia, si es que alguna tribu llegaba a quedar viva\n"
+                + "después de esto. No solo peleaban militantes, tambien los ciudadanos y civiles. Era todo o nada.";
+    }
+    
+    public String OO4(){
+        return "Con el pasar de la pelea y la muerte de varios militantes de ambos bandos, Lyana supo rápidamente que, a diferencia de\n"
+                + "los Alphas, sus Betas no estaban TAN bien preparados, sus armas y habilidades eran ligeramente inferiores a los\n"
+                + "de Long. Viendo que la pelea era dominada mayoritariamente por los Alphas, Lyana sabía que era simple cuestión de\n"
+                + "tiempo para que todos sus militantes Betas cayesen y que esta quedase sola. ¡Lyana tenía que pensar rápido!\n"
+                + "Lyana: Piensa... piensa... piensa... lo siento mucho, Betas...\n"
+                + "Lyana dejó atrás a sus Betas. Lyana se fue corriendo cobardemente. Ella no moriría ahí.\n"
+                + "Long: ¡Lyana, vuelve aquí! ¡Voy por vos!\n"
+                + "Tribu Alpha: Señor, ¿a donde va?\n"
+                + "Long: Voy por esa maldita mujer, ustedes sigan luchando sin mí.";
+    }
+    
+    public String OO5(){
+        return "Finlamente, los líderes cara a cara, no hay nadie más por ahí, solo ellos dos.\n"
+                + "Lyana: ¿Vas a matarme, no?\n"
+                + "Long: Te escapaste, creí que era un todo o nada.\n"
+                + "Lyana: Tenía que. En cualquier momento podrían haberme matado.\n"
+                + "Long: Pues no creas que te vas a salir con la tuya tan facilmente.\n"
+                + "Lyana: Mira, me arrepiento, de verdad... ustedes tenían mejor preparada su tribu, lo admito...\n"
+                + "Long: ¿Por qué la guerra, Lyana? ¿Creíste que iban a ganarnos?\n"
+                + "Lyana: Lo admito, los subestimamos.\n"
+                + "Long: Entonces dices estar arrepentida.\n"
+                + "Lyana: Long... está bien, haz lo que tengas que hacer... no te voy a rogar...";
+    }
+    
+    public String getToma3OO(){
+        return "Lyana dice estar arrepentida. ¿Qué debería hacer Long?\n"
+                + "[A] Amor: Long perdonará a Lyana pero la tomará como prisionera.\n" 
+                + "[O] Odio: Long matará a Lyana.\n" 
+                + "Ingresa la respuesta y presiona [ENTER].";
+    }
+    
+    /*
+    RUTA OOA
+    */
+    
+    public String OOA1(){
+        return "Long perdonaría a Lyana, pero no la dejaría ir así de simple. Long se llevaría a Lyana como su prisionera\n"
+                + "con las manos atadas.\n"
+                + "Lyana: Long, ¿era necesario?\n"
+                + "Long: Si, no te vas a salir con la tuya. Ya para este punto mis Alphas han de haber acabado con tus Betas,\n"
+                + "te veré pudriendote en una cárcel, Lyana.\n"
+                + "Al volver al lugar de la pelea, grande fue la sorpresa de ambos líderes al ver que... no quedaba nadie vivo,\n"
+                + "literalmente todos habían muerto en la pelea, ningún Alpha o Beta habá sobrevivido. Solo los líderes quedaban\n"
+                + "vivos.\n"
+                + "Long: Mis Alphas...\n"
+                + "Lyana: Mis Betas...";
+    }
+    
+    public String OOA2(){
+        return "Long buscó y buscó, por días y hasta semanas, pero no. Solo quedaban él y Lyana vivos. Por primera vez, tuvieron\n"
+                + "tiempo de sobra para hablar y convivir juntos. Long ya había liberado a Lyana de sus ataduras.\n"
+                + "Lyana: Gracias por liberarme.\n"
+                + "Long: Ya no eres peligrosa.\n"
+                + "Lyana: De verdad... viendo las cosas, me arrepiento de todo.\n"
+                + "Long: Creo que yo tambíen, pero, ¿no era esto lo que queriamos? ¿La guerra?\n"
+                + "Lyana: Ya ni sé... los recursos sobran, pero para nosotros y ya.\n"
+                + "Long: He estado pensando en...\n"
+                + "Lyana: ¿El suicidio?\n"
+                + "Long: ¿Como lo supiste?\n"
+                + "Lyana: Hablas solo cuando duermes.\n"
+                + "Long: Carajo...\n"
+                + "Lyana: Yo también... no queda nada que perder, creo que así podremos calmar el sufrimiento.\n"
+                + "Long: Bien... voy por la pistola.";
+    }
+    
+    public String OOA3(){
+        return "Lyana sería la primera en suicidarse, tomando la pistola con sus manos y apuntandose a sí misma.\n"
+                + "Lyana: ¿Long?\n"
+                + "Long: ¿Si?\n"
+                + "Lyana: Me arrepiento de mis desiciones, si pudiese volver en el tiempo cambiaría todo...\n"
+                + "solo puedo decirte que... gracias por estar aquí, no eres tan malo como pensaba...\n"
+                + "eres un buen hombre... ojalá haber tenido más tiempo para conocerte, Long, pero ya no podemos\n"
+                + "más con este sufrimiento... gracias por acompañarme y no dejarme sola...\n"
+                + "Long: De nada, Lyana...\n"
+                + "Lyana: Adiós, Long.\n"
+                + "Lyana se disparó. Long, con una lagrima en el ojo y sin decir nada, tomó el arma y se apuntó\n"
+                + "a su propia cabeza.\n"
+                + "Long: ¿Me arrepiento de mis desiciones? No lo sé muy bien... donde sea que estén mis Alphas...\n"
+                + "los Betas... y... mi querida Lyana, espero ir con ustedes... adiós.\n"
+                + "Long se disparó. Finalmente, ambos líderes muertos. Descansen en paz, Long y Lyana. Descansen en\n"
+                + "paz, Alphas y Betas. Nadie ganó esta guerra. El mundo se gobierna a sí mismo.";
+    }
+    
+    /*
+    RUTA OOO
+    */
+    
+    public String OOO1(){
+        return "Long le disparó a Lyana en la cabeza, sin piedad.\n"
+                + "Long: Adiós, Lyana. Ningúna paz en tu tumba.\n"
+                + "La líder Beta había muerto.\n"
+                + "Al volver al lugar de la pelea, grande fue la sorpresa del líder Alpha al ver que... no quedaba nadie vivo,\n"
+                + "literalmente todos habían muerto en la pelea, ningún Alpha o Beta habá sobrevivido. Solo Long seguía vivo.\n"
+                + "Los cadáveres y el horrible olor crean una escena destructiva para nuestro nuevo ex-líder Alpha. Long solo\n"
+                + "se marcha del lugar, solo y desamparado.";
+    }
+    
+    public String OOO2(){
+        return "En un mundo solitario con los recursos de sobra para un solo hombre, Long vaga por este buscando que comer y en\n"
+                + "donde dormir para sobrevivir, pero con la condición de que estaba en ese mundo por su propia cuenta, sin\n"
+                + "nadie con quien hablar o chocar los cinco. Los días y semanas pasaron y Long ya se había cansado de buscar\n"
+                + "otra señal de vida humana en el planeta, solo quedaba él y nadie más. Long, pensando y pensando, tuvo una idea\n"
+                + "con la que podría terminar con su soledad...";
+    }
+    
+    public String OOO3(){
+        return "Ahí estaba Long, sentado en el suelo viendo un hermoso atardecer, pero en solitario y con una pistola en la mano.\n"
+                + "Long: Lo siento por todo... si hice daño a alguien... si tomé las peores desiciones... soy infeliz con esto...\n"
+                + "debí haber escuchado a mi tribu... debí haber hecho las cosas bien... no me siento feliz... ¿esto es todo?\n"
+                + "Viendo a su pistola, Long solo cerró sus ojos y apuntó a su propia cabeza.\n"
+                + "Long: Lo siento, de verdad... adiós.\n"
+                + "Long se disparó y murió. El líder Alpha se había suicidado, el último ser humano dejaba este mundo para siempre.\n"
+                + "Descansa en paz, Long. El mundo se gobierna solo. No queda nadie ni nada.";
+    }
 }
