@@ -13,8 +13,17 @@ public class Main {
     
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
+        
+        //Ventanas
+        Ventana v1 = new Ventana();
+        v1.setTitle("Long");
+        
+        
         Lider lo=new Lider("Long",10,10);
         Lider ly=new Lider("Lyana",10,10);
+        
+        
+        
         Historia h=new Historia();
         System.out.println("Amor y Odio");
         System.out.println("Desarrollado por Sofía Iguarán Borja y Brandon Ramirez Bedoya\n");
@@ -23,6 +32,7 @@ public class Main {
         esperar1();
         System.out.println("\nPresiona [ENTER] para continuar...");
         s.nextLine();
+        v1.setVisible(true);
         System.out.println(h.getPresentacion2());
         System.out.println("\nPresiona [ENTER] para continuar...");
         s.nextLine();
