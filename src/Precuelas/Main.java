@@ -13,38 +13,47 @@ public class Main {
     
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
+        Historia h=new Historia();
+        
         
         //Ventanas
         Ventana v1 = new Ventana();
-        v1.setTitle("Long");
         
         
+        //Líderes
         Lider lo=new Lider("Long",10,10);
         Lider ly=new Lider("Lyana",10,10);
         
         
-        
-        Historia h=new Historia();
-        System.out.println("Amor y Odio");
-        System.out.println("Desarrollado por Sofía Iguarán Borja y Brandon Ramirez Bedoya\n");
+        System.out.println("Amor y Odio\nDesarrollado por Sofía Iguarán Borja y Brandon Ramirez Bedoya\n");
         esperar1();
         System.out.println(h.getPresentacion1());
         esperar1();
+        
         System.out.println("\nPresiona [ENTER] para continuar...");
         s.nextLine();
-        v1.setVisible(true);
         System.out.println(h.getPresentacion2());
+        
+        
         System.out.println("\nPresiona [ENTER] para continuar...");
         s.nextLine();
         System.out.println(h.getDialogo1());
-        System.out.println("\nPresiona [ENTER] para continuar...");
-        s.nextLine();
-        System.out.println("*IMAGEN*");
+        v1.setTitle("Long");
+        v1.imagenLong();
+        v1.setVisible(true);
+        
+        
         System.out.println("\nPresiona [ENTER] para continuar...");
         s.nextLine();
         System.out.println(h.getDialogo2());
+        v1.setTitle("Lyana");
+        v1.imagenLyana();
+        v1.setVisible(true);
+        
+        
         System.out.println("\nPresiona [ENTER] para continuar...");
         s.nextLine();
+        v1.setVisible(false);
         System.out.println(h.getDialogo3());
         System.out.println("\n"+h.getToma1());
         while (true){
@@ -61,10 +70,8 @@ public class Main {
             }
         }
         switch (desicion){
-            case "A":
-                System.out.println("\n"+h.A1());
-            //case "O":
-                //System.out.println("\n"+h.O1());
+            case "A" -> System.out.println("\n"+h.A1());
+            case "O" -> System.out.println("\n"+h.O1());
         }
     }
 }
