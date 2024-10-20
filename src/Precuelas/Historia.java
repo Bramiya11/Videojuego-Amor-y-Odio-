@@ -205,7 +205,7 @@ public class Historia {
     */
     
     public String AO1(){
-        return "Long: ¡ESTO ES INACEPTABLE! ¡Esto es lo que pasa por querer ser dizque amoroso! No vamos a permitir\n"
+        return "Long: ¡Esto es lo que pasa por querer ser dizque amoroso! No vamos a permitir\n"
                 + "que esos malditos vuelvan a meterse con nuestra tribu, nunca más.\n"
                 + "Tribu Alpha: Pero... supremo líder, ¿que podemos hacer al respecto?\n"
                 + "Long: Sé que muchos están en desacuerdo, pero simplemente NO HAY DE OTRA. Tenemos que tomar las\n"
