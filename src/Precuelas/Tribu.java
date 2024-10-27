@@ -1,23 +1,21 @@
 package Precuelas;
 public class Tribu {
-    int vidatribu;
-    int poblacion;
+    int felicidad;
+    int confianzaLider;
 
-    public int getVidatribu() {
-        return vidatribu;
+    public int getFelicidadTribu() {
+        return felicidad;
     }
 
-    public int getPoblacion() {
-        return poblacion;
+    public int getConfianzaLider() {
+        return confianzaLider;
     }
 
-    public void setVidatribu(int vidatribu) {
-        this.vidatribu = vidatribu;
+    public void setFelicidadTribu(int felicidad) {
+        this.felicidad = felicidad;
     }
 
-    public void setPoblacion(int poblacion) {
-        this.poblacion = poblacion;
+    public void setConfianzaLider(int confianzaLider) {
+        this.confianzaLider = confianzaLider;
     }
-    
-    
 }

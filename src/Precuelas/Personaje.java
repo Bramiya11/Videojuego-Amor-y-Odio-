@@ -27,14 +27,4 @@ public class Personaje {
     public int getAtaque() {
         return ataque;
     }
-    
-    
-    
-    public void mostrarInformacion(){
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Puntos de Salud: " + vida);
-        System.out.println("Puntos de Ataque: " + ataque);
-    }
-    
-    
 }

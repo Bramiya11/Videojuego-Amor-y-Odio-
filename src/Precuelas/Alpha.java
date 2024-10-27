@@ -1,8 +1,13 @@
 package Precuelas;
 public class Alpha extends Tribu{
     
-    public Alpha(int vidatribu, int poblacion){
-        Alpha.this.setVidatribu(vidatribu);
-        Alpha.this.setPoblacion(poblacion);
+    public Alpha(int felicidad, int confianzaLider){
+        Alpha.this.setFelicidadTribu(felicidad);
+        Alpha.this.setConfianzaLider(confianzaLider);
+    }
+    
+    public void infoAlpha(){
+        System.out.println("Felicidad de la Tribu Alpha: " + this.getFelicidadTribu());
+        System.out.println("Confianza de la Tribu Alpha en Long: " + this.getConfianzaLider());
     }
 }

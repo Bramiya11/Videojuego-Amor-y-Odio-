@@ -54,85 +54,85 @@ public class Ventana extends JFrame{
         imagenLyana.setIcon(new ImageIcon(Lyana.getImage().getScaledInstance(imagenLyana.getWidth(), imagenLyana.getHeight(), Image.SCALE_SMOOTH)));
         
         //A
-        ImageIcon A = new ImageIcon("prueba.png");
+        ImageIcon A = new ImageIcon("images/A.png");
         imagenA = new JLabel();
         imagenA.setBounds(0, 0, 500, 500);
         imagenA.setIcon(new ImageIcon(A.getImage().getScaledInstance(imagenA.getWidth(), imagenA.getHeight(), Image.SCALE_SMOOTH)));
         
         //O
-        ImageIcon O = new ImageIcon("prueba.png");
+        ImageIcon O = new ImageIcon("images/O.png");
         imagenO = new JLabel();
         imagenO.setBounds(0, 0, 500, 500);
         imagenO.setIcon(new ImageIcon(O.getImage().getScaledInstance(imagenO.getWidth(), imagenO.getHeight(), Image.SCALE_SMOOTH)));
         
         //AA
-        ImageIcon AA = new ImageIcon("prueba.png");
+        ImageIcon AA = new ImageIcon("images/AA.png");
         imagenAA = new JLabel();
         imagenAA.setBounds(0, 0, 500, 500);
         imagenAA.setIcon(new ImageIcon(AA.getImage().getScaledInstance(imagenAA.getWidth(), imagenAA.getHeight(), Image.SCALE_SMOOTH)));
         
         //AO
-        ImageIcon AO = new ImageIcon("prueba.png");
+        ImageIcon AO = new ImageIcon("images/AO.png");
         imagenAO = new JLabel();
         imagenAO.setBounds(0, 0, 500, 500);
         imagenAO.setIcon(new ImageIcon(AO.getImage().getScaledInstance(imagenAO.getWidth(), imagenAO.getHeight(), Image.SCALE_SMOOTH)));
         
         //OA
-        ImageIcon OA = new ImageIcon("prueba.png");
+        ImageIcon OA = new ImageIcon("images/OA.png");
         imagenOA = new JLabel();
         imagenOA.setBounds(0, 0, 500, 500);
         imagenOA.setIcon(new ImageIcon(OA.getImage().getScaledInstance(imagenOA.getWidth(), imagenOA.getHeight(), Image.SCALE_SMOOTH)));
         
         //OO
-        ImageIcon OO = new ImageIcon("prueba.png");
+        ImageIcon OO = new ImageIcon("images/OO.png");
         imagenOO = new JLabel();
         imagenOO.setBounds(0, 0, 500, 500);
         imagenOO.setIcon(new ImageIcon(OO.getImage().getScaledInstance(imagenOO.getWidth(), imagenOO.getHeight(), Image.SCALE_SMOOTH)));
         
         //AAA
-        ImageIcon AAA = new ImageIcon("prueba.png");
+        ImageIcon AAA = new ImageIcon("images/AAA.png");
         imagenAAA = new JLabel();
         imagenAAA.setBounds(0, 0, 500, 500);
         imagenAAA.setIcon(new ImageIcon(AAA.getImage().getScaledInstance(imagenAAA.getWidth(), imagenAAA.getHeight(), Image.SCALE_SMOOTH)));
         
         //AAO
-        ImageIcon AAO = new ImageIcon("prueba.png");
+        ImageIcon AAO = new ImageIcon("images/AAO.png");
         imagenAAO = new JLabel();
         imagenAAO.setBounds(0, 0, 500, 500);
         imagenAAO.setIcon(new ImageIcon(AAO.getImage().getScaledInstance(imagenAAO.getWidth(), imagenAAO.getHeight(), Image.SCALE_SMOOTH)));
         
         //AOA
-        ImageIcon AOA = new ImageIcon("prueba.png");
+        ImageIcon AOA = new ImageIcon("images/AOA.png");
         imagenAOA = new JLabel();
         imagenAOA.setBounds(0, 0, 500, 500);
         imagenAOA.setIcon(new ImageIcon(AOA.getImage().getScaledInstance(imagenAOA.getWidth(), imagenAOA.getHeight(), Image.SCALE_SMOOTH)));
         
         //AOO
-        ImageIcon AOO = new ImageIcon("prueba.png");
+        ImageIcon AOO = new ImageIcon("images/AOO.png");
         imagenAOO = new JLabel();
         imagenAOO.setBounds(0, 0, 500, 500);
         imagenAOO.setIcon(new ImageIcon(AOO.getImage().getScaledInstance(imagenAOO.getWidth(), imagenAOO.getHeight(), Image.SCALE_SMOOTH)));
         
         //OAA
-        ImageIcon OAA = new ImageIcon("prueba.png");
+        ImageIcon OAA = new ImageIcon("images/OAA.png");
         imagenOAA = new JLabel();
         imagenOAA.setBounds(0, 0, 500, 500);
         imagenOAA.setIcon(new ImageIcon(OAA.getImage().getScaledInstance(imagenOAA.getWidth(), imagenOAA.getHeight(), Image.SCALE_SMOOTH)));
         
         //OAO
-        ImageIcon OAO = new ImageIcon("prueba.png");
+        ImageIcon OAO = new ImageIcon("images/OAO.png");
         imagenOAO = new JLabel();
         imagenOAO.setBounds(0, 0, 500, 500);
         imagenOAO.setIcon(new ImageIcon(OAO.getImage().getScaledInstance(imagenOAO.getWidth(), imagenOAO.getHeight(), Image.SCALE_SMOOTH)));
         
         //OOA
-        ImageIcon OOA = new ImageIcon("prueba.png");
+        ImageIcon OOA = new ImageIcon("images/OOA.png");
         imagenOOA = new JLabel();
         imagenOOA.setBounds(0, 0, 500, 500);
         imagenOOA.setIcon(new ImageIcon(OOA.getImage().getScaledInstance(imagenOOA.getWidth(), imagenOOA.getHeight(), Image.SCALE_SMOOTH)));
         
         //OOO
-        ImageIcon OOO = new ImageIcon("prueba.png");
+        ImageIcon OOO = new ImageIcon("images/OOO.png");
         imagenOOO = new JLabel();
         imagenOOO.setBounds(0, 0, 500, 500);
         imagenOOO.setIcon(new ImageIcon(OOO.getImage().getScaledInstance(imagenOOO.getWidth(), imagenOOO.getHeight(), Image.SCALE_SMOOTH)));
