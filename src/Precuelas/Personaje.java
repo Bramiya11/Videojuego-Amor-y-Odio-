@@ -1,5 +1,5 @@
 package Precuelas;
-public class Personaje {
+public class Personaje implements MostrarInfo{
     private String nombre;
     private int vida;
     private int ataque;
@@ -26,5 +26,12 @@ public class Personaje {
 
     public int getAtaque() {
         return ataque;
+    }
+
+    @Override
+    public void MostrarInformacion() {
+        System.out.println("Nombre: " + this.getNombre());
+        System.out.println("Puntos de Salud: " + this.getVida());
+        System.out.println("Puntos de Ataque: " + this.getAtaque());
     }
 }

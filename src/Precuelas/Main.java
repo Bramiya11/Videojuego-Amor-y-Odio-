@@ -1,5 +1,6 @@
 package Precuelas;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 public class Main {
     static String desicion="";
     static String ruta="";
@@ -49,7 +50,7 @@ public class Main {
         
         System.out.println("\nPresiona [ENTER] para continuar...");
         s.nextLine();
-        lo.mostrarInformacion();
+        lo.MostrarInformacion();
         ca.infoCivilAlpha();
         ma.infoMiliAlpha();
         a.infoAlpha();
@@ -64,7 +65,7 @@ public class Main {
         
         System.out.println("\nPresiona [ENTER] para continuar...");
         s.nextLine();
-        ly.mostrarInformacion();
+        ly.MostrarInformacion();
         cb.infoCivilBeta();
         mb.infoMiliBeta();
         b.infoBeta();
@@ -89,6 +90,7 @@ public class Main {
         }
         switch (ruta){
             case "A":
+                try{
                 System.out.println("\n"+h.A1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -112,7 +114,11 @@ public class Main {
                 s.nextLine();                
                 System.out.println(h.getToma2A());
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "O":
+                try{
                 System.out.println("\n"+h.O1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -132,6 +138,9 @@ public class Main {
                 s.nextLine();                
                 System.out.println(h.getToma2O());
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
         }
         
         
@@ -151,6 +160,7 @@ public class Main {
         }
         switch (ruta){
             case "AA":
+                try{
                 System.out.println("\n"+h.AA1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -169,7 +179,7 @@ public class Main {
                 s.nextLine();
                 
                 lo.setVida(9);
-                lo.mostrarInformacion();
+                lo.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
@@ -181,7 +191,11 @@ public class Main {
                 s.nextLine();
                 System.out.println(h.getToma3AA());
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "AO":
+                try{
                 System.out.println("\n"+h.AO1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -212,7 +226,11 @@ public class Main {
                 
                 System.out.println(h.getToma3AO());
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "OA":
+                try{
                 System.out.println("\n"+h.OA1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -238,10 +256,10 @@ public class Main {
                 
                 lo.setAtaque(9);
                 lo.setVida(6);
-                lo.mostrarInformacion();
+                lo.MostrarInformacion();
                 ly.setAtaque(6);
                 ly.setVida(3);
-                ly.mostrarInformacion();
+                ly.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
@@ -253,7 +271,11 @@ public class Main {
                 s.nextLine();
                 System.out.println(h.getToma3OA());
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "OO":
+                try{
                 System.out.println("\n"+h.OO1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -283,6 +305,9 @@ public class Main {
                 s.nextLine();
                 System.out.println(h.getToma3OO());
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
         }
         
         
@@ -302,13 +327,14 @@ public class Main {
         }
         switch (ruta){
             case "AAA":
+                try{
                 System.out.println("\n"+h.AAA1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
                 lo.setVida(0);
                 lo.setAtaque(0);
-                lo.mostrarInformacion();
+                lo.MostrarInformacion();
                 
                 v1.setTitle("Ruta AAA");
                 v1.imagenAAA();
@@ -328,17 +354,21 @@ public class Main {
                 
                 System.out.println("Amor y Odio\nFinal: " + ruta);
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "AAO":
+                try{
                 System.out.println("\n"+h.AAO1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
                 ly.setAtaque(0);
                 ly.setVida(0);
-                ly.mostrarInformacion();
+                ly.MostrarInformacion();
                 lo.setAtaque(0);
                 lo.setVida(0);
-                lo.mostrarInformacion();
+                lo.MostrarInformacion();
                 
                 v1.setTitle("Ruta AAO");
                 v1.imagenAAO();
@@ -360,7 +390,11 @@ public class Main {
                 
                 System.out.println("Amor y Odio\nFinal: " + ruta);
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "AOA":
+                try{
                 System.out.println("\n"+h.AOA1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -373,7 +407,7 @@ public class Main {
                 
                 lo.setAtaque(0);
                 lo.setVida(0);
-                lo.mostrarInformacion();
+                lo.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
@@ -383,7 +417,7 @@ public class Main {
                 
                 ly.setAtaque(0);
                 ly.setVida(0);
-                ly.mostrarInformacion();
+                ly.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
@@ -407,7 +441,11 @@ public class Main {
                 
                 System.out.println("Amor y Odio\nFinal: " + ruta);
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "AOO":
+                try{
                 System.out.println("\n"+h.AOO1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -425,7 +463,7 @@ public class Main {
                 
                 ly.setAtaque(0);
                 ly.setVida(0);
-                ly.mostrarInformacion();
+                ly.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
@@ -444,7 +482,11 @@ public class Main {
                 
                 System.out.println("Amor y Odio\nFinal: " + ruta);
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "OAA":
+                try{
                 System.out.println("\n"+h.OAA1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -454,7 +496,7 @@ public class Main {
                 
                 lo.setAtaque(0);
                 lo.setVida(0);
-                lo.mostrarInformacion();
+                lo.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
@@ -482,27 +524,31 @@ public class Main {
                 
                 ly.setAtaque(0);
                 ly.setVida(0);
-                ly.mostrarInformacion();
+                ly.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
                 System.out.println("Amor y Odio\nFinal: " + ruta);
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "OAO":
+                try{
                 System.out.println("\n"+h.OAO1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
                 ly.setAtaque(0);
                 ly.setVida(0);
-                ly.mostrarInformacion();
+                ly.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
                 System.out.println(h.OAO2());
                 lo.setAtaque(0);
                 lo.setVida(0);
-                lo.mostrarInformacion();
+                lo.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
@@ -526,7 +572,11 @@ public class Main {
                 
                 System.out.println("Amor y Odio\nFinal: " + ruta);
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "OOA":
+                try{
                 System.out.println("\n"+h.OOA1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
@@ -555,23 +605,27 @@ public class Main {
                 
                 lo.setAtaque(0);
                 lo.setVida(0);
-                lo.mostrarInformacion();
+                lo.MostrarInformacion();
                 ly.setAtaque(0);
                 ly.setVida(0);
-                ly.mostrarInformacion();
+                ly.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
                 System.out.println("Amor y Odio\nFinal: " + ruta);
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
             case "OOO":
+                try{
                 System.out.println("\n"+h.OOO1());
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
                 ly.setAtaque(0);
                 ly.setVida(0);
-                ly.mostrarInformacion();
+                ly.MostrarInformacion();
                 ca.setCiviles(0);
                 ca.infoCivilAlpha();
                 cb.setCiviles(0);
@@ -596,12 +650,15 @@ public class Main {
                 
                 lo.setAtaque(0);
                 lo.setVida(0);
-                lo.mostrarInformacion();
+                lo.MostrarInformacion();
                 System.out.println("\nPresiona [ENTER] para continuar...");
                 s.nextLine();
                 
                 System.out.println("Amor y Odio\nFinal: " + ruta);
                 break;
+                }catch (Exception ErrorImpresion){
+                    JOptionPane.showMessageDialog(null, "Ha ocurrido un error en la impresión de la historia.");
+                }
         }
         v1.dispose();
     }

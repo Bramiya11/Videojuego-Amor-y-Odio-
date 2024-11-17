@@ -7,9 +7,10 @@ public class Lider extends Personaje{
         Lider.this.setAtaque(ataque);
     }
     
-    public void mostrarInformacion(){
-        System.out.println("Nombre: " + this.getNombre());
-        System.out.println("Puntos de Salud: " + this.getVida());
-        System.out.println("Puntos de Ataque: " + this.getAtaque());
+    @Override
+    public void MostrarInformacion(){
+        System.out.println("Nombre de líder: " + this.getNombre());
+        System.out.println("Puntos de Salud de líder: " + this.getVida());
+        System.out.println("Puntos de Ataque de líder: " + this.getAtaque());
     }
 }
