@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana con Imágenes y Código de Clases</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            text-align: center;
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+        .image-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ddd;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        pre {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-top: 30px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-container">
+            <img id="imagen" src="Long.png" alt="Imagen">
+        </div>
+        <div>
+            <button onclick="changeImage('Long.png')">Imagen Long</button>
+            <button onclick="changeImage('Lyana.png')">Imagen Lyana</button>
+            <button onclick="changeImage('A.png')">Imagen A</button>
+            <button onclick="changeImage('O.png')">Imagen O</button>
+            <button onclick="changeImage('AA.png')">Imagen AA</button>
+            <button onclick="changeImage('AO.png')">Imagen AO</button>
+            <button onclick="changeImage('OA.png')">Imagen OA</button>
+            <button onclick="changeImage('OO.png')">Imagen OO</button>
+            <button onclick="changeImage('AAA.png')">Imagen AAA</button>
+            <button onclick="changeImage('AAO.png')">Imagen AAO</button>
+            <button onclick="changeImage('AOA.png')">Imagen AOA</button>
+            <button onclick="changeImage('AOO.png')">Imagen AOO</button>
+            <button onclick="changeImage('OAA.png')">Imagen OAA</button>
+            <button onclick="changeImage('OAO.png')">Imagen OAO</button>
+            <button onclick="changeImage('OOA.png')">Imagen OOA</button>
+            <button onclick="changeImage('OOO.png')">Imagen OOO</button>
+        </div>
+    </div>
+
+    <script>
+        function changeImage(imageName) {
+            const image = document.getElementById("imagen");
+            image.src = imageName;
+        }
+    </script>
+
+    <!-- Código Java -->
+    <div class="container">
+        <h1>Código de la Clase Tribu</h1>
+        <pre>
+package Precuelas;
+public class Tribu {
+    int felicidad;
+    int confianzaLider;
+
+    public int getFelicidadTribu() {
+        return felicidad;
+    }
+
+    public int getConfianzaLider() {
+        return confianzaLider;
+    }
+
+    public void setFelicidadTribu(int felicidad) {
+        this.felicidad = felicidad;
+    }
+
+    public void setConfianzaLider(int confianzaLider) {
+        this.confianzaLider = confianzaLider;
+    }
+}
+        </pre>
+
+        <h1>Código de la Clase Personaje</h1>
+        
+        <pre>
+package Precuelas; 
+public class Personaje implements MostrarInfo {
+    private String nombre;
+    private int vida;
+    private int ataque;
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setVida(int vida) {
+        this.vida = vida;
+    }
+
+    public void setAtaque(int ataque) {
+        this.ataque = ataque;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getVida() {
+        return vida;
+    }
+
+    public int getAtaque() {
+        return ataque;
+    }
+
+    @Override
+    public void MostrarInformacion() {
+        System.out.println("Nombre: " + this.getNombre());
+        System.out.println("Puntos de Salud: " + this.getVida());
+        System.out.println("Puntos de Ataque: " + this.getAtaque());
+    }
+}
+        </pre>
+
+        <h1>Código de la Interfaz MostrarInfo</h1>
+        <pre>
+package Precuelas; 
+
+public interface MostrarInfo {
+    public void MostrarInformacion();
+}
+        </pre>
+
+        <h1>Código de la Clase Lider</h1>
+        <pre>
+package Precuelas; 
+public class Lider extends Personaje {
+    public Lider(String nombre, int vida, int ataque) {
+        Lider.this.setNombre(nombre);
+        Lider.this.setVida(vida);
+        Lider.this.setAtaque(ataque);
+    }
+
+    @Override
+    public void MostrarInformacion() {
+        System.out.println("Nombre de líder: " + this.getNombre());
+        System.out.println("Puntos de Salud de líder: " + this.getVida());
+        System.out.println("Puntos de Ataque de líder: " + this.getAtaque());
+    }
+}
+        </pre>
+
+        <h1>Código de la Clase Alpha</h1>
+        <pre>
+package Precuelas;
+public class Alpha extends Tribu {
+    public Alpha(int felicidad, int confianzaLider) {
+        Alpha.this.setFelicidadTribu(felicidad);
+        Alpha.this.setConfianzaLider(confianzaLider);
+    }
+
+    public void infoAlpha() {
+        System.out.println("Felicidad de la Tribu Alpha: " + this.getFelicidadTribu());
+        System.out.println("Confianza de la Tribu Alpha en Long: " + this.getConfianzaLider());
+    }
+}
+        </pre>
+
+        <h1>Código de la Clase Beta</h1>
+        <pre>
+package Precuelas;
+public class Beta extends Tribu {
+    public Beta(int felicidad, int confianzaLider) {
+        Beta.this.setFelicidadTribu(felicidad);
+        Beta.this.setConfianzaLider(confianzaLider);
+    }
+
+    public void infoBeta() {
+        System.out.println("Felicidad de la Tribu Beta: " + this.getFelicidadTribu());
+        System.out.println("Confianza de la Tribu Beta en Lyana: " + this.getConfianzaLider());
+    }
+}
+        </pre>
+
+        <h1>Código de la Clase Ciudadano</h1>
+        <pre>
+package Precuelas; 
+public class Ciudadano extends Personaje {
+    int civiles;
+
+    public void setCiviles(int civiles) {
+        this.civiles = civiles;
+    }
+
+    public int getCiviles() {
+        return civiles;
+    }
+
+    public Ciudadano(String nombre, int vida, int ataque, int civiles) {
+        Ciudadano.this.setNombre(nombre);
+        Ciudadano.this.setVida(vida);
+        Ciudadano.this.setAtaque(ataque);
+        Ciudadano.this.setCiviles(civiles);
+    }
+
+    public void infoCivilAlpha() {
+        System.out.println("Civiles de Alpha: " + this.civiles);
+    }
+
+    public void infoCivilBeta() {
+        System.out.println("Civiles de Beta: " + this.civiles);
+    }
+}
+        </pre>
+
+        <h1>Código de la Clase Militante</h1>
+        <pre>
+package Precuelas; 
+public class Militante extends Personaje {
+    int militantes;
+
+    public void setMilitantes(int militantes) {
+        this.militantes = militantes;
+    }
+
+    public int getMilitantes() {
+        return militantes;
+    }
+
+    public Militante(String nombre, int vida, int ataque, int militantes) {
+        Militante.this.setNombre(nombre);
+        Militante.this.setVida(vida);
+        Militante.this.setAtaque(ataque);
+        Militante.this.setMilitantes(militantes);
+    }
+
+    public void infoMiliAlpha() {
+        System.out.println("Militantes de Alpha: " + this.militantes);
+    }
+
+    public void infoMiliBeta() {
+        System.out.println("Militantes de Beta: " + this.militantes);
+    }
+}
+        </pre>
+    </div>
+
+</body>
+</html>
